@@ -6,7 +6,7 @@
 
 
 ```r
-activity <- read.csv("../Activity/Activity.csv")
+activity <- read.csv(unz("activity.zip", "activity.csv"))
 head(activity)
 ```
 

@@ -68,7 +68,7 @@ img {
 <h2>Loading and preprocessing the data</h2>
 <div id="load-the-data" class="section level3">
 <h3>1. Load the data</h3>
-<pre class="r"><code>activity &lt;- read.csv(&quot;../Activity/Activity.csv&quot;)
+<pre class="r"><code>activity &lt;- read.csv(unz(&quot;activity.zip&quot;, &quot;activity.csv&quot;))
 head(activity)</code></pre>
 <pre><code>##   steps       date interval
 ## 1    NA 2012-10-01        0
