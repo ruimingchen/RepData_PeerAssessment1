@@ -64,7 +64,7 @@ hist(steps_dsum[,2],
      xlab="Steps",
      ylim=(c(0,40)),
      col='light blue',
-     main="Histogram of Total Number of Steps Each Day")
+     main="Histogram of The Total Number of Steps Each Day")
 ```
 
 ![](PA1_template_files/figure-html/unnamed-chunk-2-1.png) 
