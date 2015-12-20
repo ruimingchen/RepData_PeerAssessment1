@@ -64,7 +64,7 @@ hist(steps_dsum[,2],
      xlab="Steps",
      ylim=(c(0,40)),
      col='light blue',
-     main="Histogram of The Total Number of Steps Each Day")
+     main="Histogram of the Total Number of Steps Each Day")
 ```
 
 ![](PA1_template_files/figure-html/unnamed-chunk-2-1.png) 
@@ -128,7 +128,7 @@ xyplot(steps ~ interval,
        type = "l",
        lty = 1,
        lwd = 1,
-       main = "Time Series of Average Number of Steps Across All Days",
+       main = "Time Series of the Average Number of Steps Across All Days",
        xlab = "5-Minute Interval",
        ylab = "Average Number of Steps Across All Days",
        col.line = "red")
@@ -245,7 +245,7 @@ hist(steps_dsum_complete[,2],
      xlab="Steps", 
      ylim=(c(0,40)),
      col='light blue',
-     main="Histogram of the Total Numer of Steps")
+     main="Histogram of the Total Number of Steps")
 ```
 
 ![](PA1_template_files/figure-html/unnamed-chunk-8-1.png) 
@@ -354,7 +354,7 @@ xyplot(steps ~ interval | weekday,
        type = "l",
        lty = 1,
        lwd = 1,
-       #main = "Time Series of Average Number of Steps",
+       #main = "Time Series of the Average Number of Steps",
        xlab = "5-Minute Interval",
        ylab = "Average Number of Steps",
        col.line = "red",
