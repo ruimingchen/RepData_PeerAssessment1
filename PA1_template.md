@@ -1,6 +1,6 @@
 # Reproducible Research: Peer Assessment 1
 
-## Loading and preprocessing the data
+## Loading and preprocessing activity data
 
 ### 1. Load the data
 
